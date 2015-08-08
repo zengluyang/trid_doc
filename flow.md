@@ -8,8 +8,8 @@
 
 ```
 {
-	"type":"sms_validation_request"
-	"tel":"18615794931",
+	"type":"sms_validation_request",
+	"tel":"13866668888",
 	"time":"2015-8-4 1:44"
 }
 ```
@@ -32,6 +32,7 @@
 ```
 {
 	"type":"sms_validation_code",
+	"tel":"13866668888",
 	"code":"123456"
 }
 ```
