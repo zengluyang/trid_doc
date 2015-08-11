@@ -89,7 +89,7 @@
     - 失败返回:
 
             {
-                "type:" "sms_validation_code"
+                "type:" "sms_validation_result"
                 "success": false
                 "error_no": 1
                 "error_msg": "json decode failed."
