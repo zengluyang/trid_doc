@@ -26,9 +26,9 @@
     - 成功返回：
 
             {
-                "type": "sms_validation_send"
-                "success": true
-                "error_no": 0
+                "type": "sms_validation_send",
+                "success": true,
+                "error_no": 0,
                 "error_msg": null
             }
 
@@ -37,9 +37,9 @@
 
 
             {
-                "type:" "sms_validation_send"
-                "success": false
-                "error_no": 1
+                "type:" "sms_validation_send",
+                "success": false,
+                "error_no": 1,
                 "error_msg": "json decode failed."
             }
 
@@ -78,10 +78,10 @@
     - 成功返回： 客户端应该存储token，以便在下一步注册中使用
 
             {
-                "type": "sms_validation_result"
-                "success": true
-                "token": "59437135717575643276636549645a787678307253673d3d"
-                "error_no": 0
+                "type": "sms_validation_result",
+                "success": true,
+                "token": "59437135717575643276636549645a787678307253673d3d",
+                "error_no": 0,
                 "error_msg": null
             }
 
@@ -89,9 +89,9 @@
     - 失败返回:
 
             {
-                "type:" "sms_validation_result"
-                "success": false
-                "error_no": 1
+                "type:" "sms_validation_result",
+                "success": false,
+                "error_no": 1,
                 "error_msg": "json decode failed."
             }
 
